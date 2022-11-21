@@ -1,0 +1,430 @@
+@font-face {
+    font-family: playBall;
+    src: url(./assets/font/Playball-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+h1{
+    color: red !important;
+}
+
+hr{
+    opacity: 1;
+    color: red;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #000 !important;
+    padding: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red !important;
+    font-size: 18px !important;
+    background-color: #28282B;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.heroSecLayer{
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.781);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSec{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(./assets/img/FOOTER\ IMAGE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+    
+}
+
+.heroSec h2{
+    font-family: playBall;
+    font-size: 45px;
+    margin-bottom: 40px;
+    text-shadow: 3px 3px 2px #000;
+}
+.FirstnewBtn{
+    height: auto;
+    width: 190px;
+    padding: 8px 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    margin:  0 auto;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    font-size: 20px;
+    transition: 500ms ease;
+}
+.FirstnewBtn:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.secondSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #ffffff;
+    color: #000;
+
+}
+.secondSec h1{
+    text-align: center;
+    color: #000;
+}
+
+.secondSec .mainH{
+    text-align: left !important;
+    font-size: 70px;
+}
+.secondSec .row{
+    align-items: center;
+}
+
+.secondSec p{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.secondSec p i{
+    font-size: 20px;
+    text-align: center !important;
+}
+
+
+
+.secondSec img{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    font-weight: bold;
+}
+.aboutBtnOne{
+    height: auto;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+.aboutBtnTwo{
+    height: auto;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid red;
+    color: red;
+    margin-left: 15px;
+    transition: 500ms ease;
+}
+
+.aboutBtnTwo:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/* service section  */
+
+
+.serviceSec{
+    height: auto;
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #000;
+
+}
+
+.serviceSec h2{
+    text-align: center;
+    color: #fff;
+}
+
+.serviceSec hr{
+    margin-bottom: 25px;
+    width: 100px;
+}
+
+.serviceCard {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 3px 7px 2px rgba(0, 0, 0, 0.37);
+}
+.serviceCard h4{
+    padding: 10px 0;
+}
+
+.serviceCard i{
+    font-size: 30px;
+    color: red;
+    padding-bottom: 10px;
+}
+.serviceCard h5{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .serviceCard p{
+    height: 70px;
+} */
+.price{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.price span{
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+}
+.serviceCard .bookNow{
+    height: auto;
+    width: 70%;
+    padding: 8px 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid red;
+    margin:  0 auto;
+    border-radius: 5px;
+    color: red;
+    font-size: 16px;
+    transition: 500ms ease;
+}
+
+
+/* focus section  here  */
+.focusSec{
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+    background-color: red;
+    color: #fff;
+}
+
+.focusSec h2{
+    text-align: center;
+}
+.focusClass{
+    height: auto;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+}
+.focusSec p{
+    text-align: center;
+}
+
+.focusClass i{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+/* another section here  */
+.anotherSec{
+    height: auto;
+    width: 100%;
+    background-color: red;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.anotherBtn{
+    height: auto;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+    color: red;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+/* testimonial section here  */
+.testiCard{
+    height: 600px;
+    width: 90%;
+    padding: 22px 20px;
+    border-radius: 5px;
+    margin: 0 10px 50px 10px;
+    box-shadow: 1px 5px 17px 2px rgb(0 0 0 / 15%);
+}
+
+.videoSec{
+    height: auto;
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+
+.testiSec{
+    height: auto;
+    width: 100%;
+    padding: 70px 0px;
+    text-align: center;
+}
+.testiSec hr{
+    width: 120px;
+}
+.testiSec h5{
+    color: #000;
+}
+
+.testiSec img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+.testiSec .fas{
+    color: red;
+}
+
+.testiSec  h2{
+    text-align: center;
+}
+
+.dot{
+    font-size: 35px;
+    margin: 0;
+}
+
+
+/* contact section here  */
+.contactSec{
+    height: auto;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.contactSec h2{
+    text-align: center;
+}
+
+.contactSec input,.contactSec textarea{
+    box-shadow: none !important;
+}
+.contactSec input:hover,.contactSec textarea:hover{
+    border-color: red;
+}
+
+.contactSec .btn-primary{
+    height: auto;
+    width: 220px;
+    padding: 8px 0;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+}
+
+/* footer section  */
+.footerSec{
+    height: auto;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.footerSec .row{
+    align-items: center;
+}
+.footerSec i{
+    color: red;
+}
+
+.footerSec ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerSec li{
+    padding: 5px 0;
+    font-weight: 500;
+    color: #fff;
+}
+
+.icons ul{
+    display: flex;
+}
+
+.icons ul li{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.icons ul li i{
+    font-size: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: rgba(255, 255, 255, 0.356) !important;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+
+    .testiCard{
+        width: 95%;
+        display: block;
+    }
+    .serviceCard{
+        margin-bottom: 15px;
+    }
+}
